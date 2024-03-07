@@ -1,1 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700&display=swap');
+
+:root {
+  --primary-clr: #17202A;
+  --secondary-clr: #2A2E3C;
+  --link-clr: #fff;
+  --link-hover-clr: #ffc107;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: var(--primary-clr); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background: linear-gradient(to right, var(--primary-clr), var(--secondary-clr));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 70px;
+  padding: 0 40px;
+}
+
+header img {
+  height: 50px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--link-clr);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 530;
+  transition: color ease-in-out 0.15s;
+}
+
+nav ul li a:hover {
+  color: var(--link-hover-clr);
+}
+
+nav ul li a:active {
+  opacity: 0.7;
+}
