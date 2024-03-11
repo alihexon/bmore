@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-left: 90px;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
   top: 0;
   right: 0;
   height: 85px;
-  padding: 0 50px;
+  padding: 0 80px;
 }
 
 header img {
