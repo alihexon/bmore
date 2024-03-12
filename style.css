@@ -47,7 +47,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 530;
-  transition: color ease-in-out 0.2s;
+  transition: color 0.2s ease-in-out;
 }
 
 nav ul li a:hover,
