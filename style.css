@@ -16,22 +16,17 @@
 
 body {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: url(assets/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 90px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
   height: 85px;
   padding: 0 80px;
 }
@@ -65,5 +60,41 @@ nav ul li a:active {
 }
 
 #info {
-  margin-top: 300px;
+  margin: 100px 0 0 80px;
+  padding-right: 80px;
+}
+
+#info h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+#info h1 span {
+  color: var(--link-hover-clr);
+}
+
+#info p {
+  color: #f1f1f1;
+  max-width: 550px;
+  margin-bottom: 20px;
+}
+
+.join-btn {
+  background-color: transparent;
+  color: var(--link-hover-clr);
+  font-size: 18px;
+  font-weight: 550;
+  width: 200px;
+  padding: 8px 15px;
+  border: 1px solid var(--link-hover-clr);
+  border-radius: 6px;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.join-btn:hover {
+  background-color: var(--link-hover-clr);
+  color: white;
 }
