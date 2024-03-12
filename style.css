@@ -27,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 85px;
+  height: 95px;
   padding: 0 80px;
 }
 
@@ -60,7 +60,8 @@ nav ul li a:active {
 }
 
 .hamburger {
-  opacity: 0;
+  display: none;
+  visibility: hidden;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -94,7 +95,6 @@ nav ul li a:active {
   top: 0;
   right: 0;
   bottom: 0;
-  transition: width 0.3s;
   visibility: hidden;
 }
 
@@ -207,10 +207,12 @@ nav ul li a:active {
 
 @media screen and (max-width: 700px) {
   nav {
-    opacity: 0;
+    display: none;
+    visibility: hidden;
   }
 
   .hamburger {
-    opacity: 1;
+    display: inline;
+    visibility: visible;
   }
 }
