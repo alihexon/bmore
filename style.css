@@ -93,7 +93,7 @@ nav ul li a:active {
   width: 50%;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -25%;
   bottom: 0;
   visibility: hidden;
 }
@@ -175,6 +175,14 @@ nav ul li a:active {
 
 .is-visible {
   visibility: visible;
+  transform: translate(-50%, 0);
+  transition: transform 0.4s ease;
+}
+
+.is-hidden-animation {
+  visibility: hidden;
+  transform: translate(50%, 0);
+  transition: transform 0.4s ease, visibility 0s 0.4s;
 }
 
 @media screen and (max-width: 934px) {
