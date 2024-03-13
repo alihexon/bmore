@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="styles/why-us.css">
-  <title>Baltimore RP - Why us?</title>
-</head>
-<body>
-  <header id="header">
-    <img src="assets/logo.png" alt="Baltimore RP" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/why-us.css" />
+    <title>Baltimore RP - Why us?</title>
+  </head>
+  <body>
+    <header id="header">
+      <img src="assets/logo.png" alt="Baltimore RP" />
 
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a class="current" href="#">Why us</a></li>
-        <li><a href="https://www.moddb.com/mods/san-andreas-multiplayer/downloads/sa-mp-03dl" target="_blank">Download</a></li>
-        <li><a href="https://forum.baltimore-rp.com/" target="_blank">Forums</a></li>
-        <li><a href="https://discord.gg/7syfpuBVJF" target="_blank">Discord</a></li>
-      </ul>
-    </nav>
-    <button class="hamburger">
-      <i class="bx bx-menu"></i>
-    </button>
-    <div class="h-popup-overlay"></div>
-    <div class="h-popup">
-      <button class="close-btn">
-        <i class="bx bx-x"></i>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="current" href="#">Why us</a></li>
+          <li>
+            <a
+              href="https://www.moddb.com/mods/san-andreas-multiplayer/downloads/sa-mp-03dl"
+              target="_blank"
+              >Download</a
+            >
+          </li>
+          <li>
+            <a href="https://forum.baltimore-rp.com/" target="_blank">Forums</a>
+          </li>
+          <li>
+            <a href="https://discord.gg/7syfpuBVJF" target="_blank">Discord</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="hamburger">
+        <i class="bx bx-menu"></i>
       </button>
-      <ul>
-        <li>
-          <a href="#">Why us</a>
-        </li>
-        <li>
-          <a href="https://www.moddb.com/mods/san-andreas-multiplayer/downloads/sa-mp-03dl" target="_blank">Download</a>
-        </li>
-        <li>
-          <a href="#">Forums</a>
-        </li>
-        <li>
-          <a href="#">Discord</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <h1>Why <br><span>Baltimore Roleplay</span>?</h1>
-    <header id="main-header">
-      <ul>
-        <li class="staff" onclick="showOption('staff')">Active Staff</li>
-        <li class="unique" onclick="showOption('unique')">Unique</li>
-        <li class="community" onclick="showOption('community')">Healthy Community</li>
-        <li class="stability" onclick="showOption('stability')">Stability</li>
-        <li class="fair-play" onclick="showOption('fair-play')">Fair Play</li>
-      </ul>
+      <div class="h-popup-overlay"></div>
+      <div class="h-popup">
+        <button class="close-btn">
+          <i class="bx bx-x"></i>
+        </button>
+        <ul>
+          <li>
+            <a href="#">Why us</a>
+          </li>
+          <li>
+            <a
+              href="https://www.moddb.com/mods/san-andreas-multiplayer/downloads/sa-mp-03dl"
+              target="_blank"
+              >Download</a
+            >
+          </li>
+          <li>
+            <a href="#">Forums</a>
+          </li>
+          <li>
+            <a href="#">Discord</a>
+          </li>
+        </ul>
+      </div>
     </header>
-    <p class="js-display"></p>
-  </main>
-  <script src="script.js"></script>
-</body>
+    <main>
+      <h1>Why <br /><span>Baltimore Roleplay</span>?</h1>
+      <header id="main-header">
+        <ul>
+          <li class="staff" onclick="showOption('staff')">Active Staff</li>
+          <li class="unique" onclick="showOption('unique')">Unique</li>
+          <li class="community" onclick="showOption('community')">
+            Healthy Community
+          </li>
+          <li class="stability" onclick="showOption('stability')">Stability</li>
+          <li class="fair-play" onclick="showOption('fair-play')">Fair Play</li>
+        </ul>
+      </header>
+      <p class="js-display"></p>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
