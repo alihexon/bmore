@@ -165,7 +165,17 @@ main h1 span {
   gap: 20px;
   font-weight: 530;
   text-transform: uppercase;
+  user-select: none;
   list-style: none;
+}
+
+#main-header ul li {
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+#main-header ul li:hover {
+  color: var(--link-hover-clr);
 }
 
 @media screen and (max-width: 934px) {
