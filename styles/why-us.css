@@ -145,6 +145,29 @@ nav ul li a:active {
   transition: transform 0.4s ease, visibility 0s 0.4s;
 }
 
+main {
+  margin-top: 100px;
+  padding: 0 80px;
+}
+
+main h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+main h1 span {
+  color: var(--link-hover-clr);
+}
+
+main ul {
+  display: flex;
+  gap: 20px;
+  font-weight: 530;
+  text-transform: uppercase;
+  list-style: none;
+}
+
 @media screen and (max-width: 934px) {
   nav ul {
     gap: 50px;
