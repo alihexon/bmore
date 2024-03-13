@@ -173,6 +173,10 @@ nav ul li a:active {
   color: white;
 }
 
+.join-btn a {
+  text-decoration: none;
+}
+
 .is-visible {
   visibility: visible;
   transform: translate(-50%, 0);
