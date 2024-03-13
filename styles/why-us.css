@@ -171,10 +171,14 @@ main h1 span {
 
 #main-header ul li {
   cursor: pointer;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border 1s;
 }
 
 #main-header ul li:hover {
+  border-bottom: 1px solid var(--link-hover-clr);
+}
+
+.js-chosen {
   color: var(--link-hover-clr);
 }
 
