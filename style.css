@@ -218,6 +218,10 @@ nav ul li a:active {
 }
 
 @media screen and (max-width: 700px) {
+  header {
+    padding: 0 40px;
+  }
+
   nav {
     display: none;
     visibility: hidden;
@@ -226,6 +230,10 @@ nav ul li a:active {
   .hamburger {
     display: inline;
     visibility: visible;
+  }
+
+  #info {
+    padding: 0 40px;
   }
 }
 
